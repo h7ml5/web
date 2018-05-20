@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>随机切换网页背景图效果-javascript实现</title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+	    var bodyBgs = [];
+		bodyBgs[0] = "images/bg1.jpg";
+		bodyBgs[1] = "images/bg2.jpg";
+		bodyBgs[2] = "images/bg3.jpg";
+		bodyBgs[3] = "images/bg4.jpg";
+		bodyBgs[4] = "images/bg5.jpg";	
+		var randomBgIndex = Math.round( Math.random() * 4 );
+		document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style');
+	</script>
+</html>
