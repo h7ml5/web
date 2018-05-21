@@ -6,9 +6,10 @@ This is a repository for demo！
 <details>
   <summary>2018-5-20</summary>
   <p>Random background graph</p>
-  <li>[cssRealize](https://h7ml.github.io/demo/Random-background/cssRealize.html)</li>
-  <li>[jsRealize](https://h7ml.github.io/demo/Random-background/jsRealize.html)</li>
+  <li>[cssRealize](https://h7ml.coding.me/web/Random-background/cssRealize.html)</li>
+  <li>[jsRealize](https://h7ml.coding.me/web/Random-background/jsRealize.html)</li>
 </details>
+
 
 <details>
   <summary>2018-5-21</summary>
