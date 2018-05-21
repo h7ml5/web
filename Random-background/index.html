@@ -7,6 +7,10 @@
 	<title>Random-background</title>
 </head>
 <script>
-	location.href = Math.random() < 0.5 ? "https://h7ml.coding.me/web/Random-background/cssRealize.html" : "https://h7ml.coding.me/web/Random-background/jsRealize.html";
+	var url = new Array(
+		"https://h7ml.coding.me/web/Random-background/cssRealize.html",
+		"https://h7ml.coding.me/web/Random-background/jsRealize.html"
+	)
+	window.location.href = url[Math.floor(Math.random() * url.length)];
 </script>
 </html>
