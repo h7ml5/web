@@ -1,0 +1,43 @@
+    html body {
+        position: fixed;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-position: center 0%;
+        background-attachment: fixed;
+        height: 100%;
+        background-image: url(https://unsplash.it/1600/900?random);
+    }
+	ul li{
+		list-style: none;
+		white-space:nowrap;
+		margin-top: 10px;
+	}
+	#canvas{
+		position: fixed;
+    z-index: -1;
+	}
+	.container {
+		margin-top: 30px;
+	}
+	#cityname{
+		height: 32px;
+		font-family: none;
+		margin-right: 15px;
+	}
+	#h7ml{
+		margin-top: 10px;
+	}
+	.container{
+		z-index: 999;
+	}
+	footer{
+		z-index: 999;
+		position:fixed;
+		left:50%;
+		margin-left: -100px;
+		bottom:30px;
+	}
