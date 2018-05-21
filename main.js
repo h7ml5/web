@@ -49,7 +49,7 @@
     var lists = ['Random-background', 'weather'];
     var place = document.getElementsByClassName('list');
     for (var i = 0; i < lists.length; i++) {
-        var str = '<a href="https://h7ml.github.io/web/' + lists[i] + '/">' + lists[i] + '</a>';
+        var str = '<a href="http://h7ml.coding.me/web/' + lists[i] + '/">' + lists[i] + '</a>';
         var li = document.createElement('p');
         li.innerHTML = str;
         console.log(str);
