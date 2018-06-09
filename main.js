@@ -46,7 +46,7 @@
     document.onclick = i
     document.ontouchstart = i
     i()
-    var lists = ['Random-background', 'weather'];
+    var lists = ['Random-background', 'weather','mybird'];
     var place = document.getElementsByClassName('list');
     for (var i = 0; i < lists.length; i++) {
         var str = '<a href="http://h7ml.coding.me/web/' + lists[i] + '/">' + lists[i] + '</a>';
