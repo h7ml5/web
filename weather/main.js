@@ -33,7 +33,7 @@ h7mlTime()
 			$.ajax({
 		    type:"get",
 		    async:true,
-			  url:"http://wthrcdn.etouch.cn/weather_mini?city="+cityname,
+			  url:"https://wthrcdn.etouch.cn/weather_mini?city="+cityname,
 		    dataType:"jsonp",
 		    jsonp: "callback",
 		    success: function(result) {
